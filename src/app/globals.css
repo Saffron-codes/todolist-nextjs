@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.centered-dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.centered-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0; /* Override dialog's default margin to prevent alignment issues */
+}

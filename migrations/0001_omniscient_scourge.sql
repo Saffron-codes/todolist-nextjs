@@ -1,0 +1,1 @@
+ALTER TABLE "example_proj_todo" ALTER COLUMN "id" SET DATA TYPE serial;
