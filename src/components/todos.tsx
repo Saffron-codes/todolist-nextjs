@@ -3,7 +3,7 @@ import React from "react";
 // import Todo from "./todo";
 
 export default async function Todos() {
-  const todos = await getAllTodos();
+  // const todos = await getAllTodos();
 
   return (
     <div className="px-5 py-4">
